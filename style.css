@@ -1,0 +1,411 @@
+body {
+	font-family: "Sriracha", cursive; 
+	background-color: white;
+	color: #BDBDBD;
+	text-align: justify;
+	min-height: 100%;
+	width: 100%;
+	margin: auto;
+	font-size: 18px;
+	display: block;
+}
+
+html {
+	margin: 0; 
+	padding: 0;
+}
+
+a {
+	color: #009688;
+	text-decoration: none;
+}
+
+a:visited {
+	color:  #757575;
+}
+
+/* ------------------------  Haut de page ------------------- */
+
+#top {
+	display: flex;
+	width: 100%;
+}
+
+.titre {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin-right: 2em;
+}
+
+h1 > span {
+	color: #009688;
+}
+
+h1 {
+	font-family: "Sriracha", cursive;
+	margin: 0px;
+	margin-top: 1em;
+	margin-left: 1em;
+	font-size: 4em;
+}
+
+h2 > span {
+	text-decoration: underline; 
+	text-decoration-color: #009688; 
+	text-underline-position: under;
+}
+
+h2 {
+	font-family: "Sriracha", cursive;
+	margin: 0px;
+	margin-left: 3em;
+}
+
+img {
+	display: flex;
+	align-content: center;
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	margin-top: 3em;
+	border: 4px #009688 solid;
+}
+
+.photo_sylvie {
+	display: flex;
+	width: 25%;
+	background-color: #BDBDBD;
+	justify-content: center;
+}
+
+/* --------------------- Milieu de page ----------------- */
+
+#blocs {
+	display: flex;
+	width:100%;
+}
+
+.maincontent {
+	display: flex;
+	flex-direction: row;
+	margin-right: 2em;
+	min-height: 100%
+}
+
+h5 {
+	margin-top: 0;
+	color: #757575;
+}
+
+h4 {
+	margin-top: 0;
+	color: #009688;
+}
+
+/* ------------------------------ Partie gauche --------------------------- */
+
+#bloc_gauche {
+	display: flex;
+	flex-direction: column;	
+	width:25%;
+	background-color: #BDBDBD;
+	color: white;
+}
+
+.title_left {
+	background-color :#009688;
+	color:white;
+	text-align:center;
+	font-size: xx-large;
+}
+
+/* -------------------------------- Contact -------------------------------- */
+
+address {
+	margin : 0 2em;
+}
+
+p{
+	margin: 0;
+}
+
+/* ------------------------------ A Propos de moi ------------------------ */
+
+.title_left + p {
+	margin: 1em 2em;
+}
+
+/* ------------------------------ Loisirs ---------------------------------*/
+
+#icones { 
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-left: 2em;
+}
+
+.icone { 
+	display: flex;
+	margin-bottom: 1em;
+	border-radius:50%;
+	border:2px white solid;
+	padding: 0.5em;
+}
+
+#page {
+	margin-top: auto;
+}
+
+/* -------------------------------------- Partie droite ---------------------------- */
+
+#bloc_droite {
+	display: flex;
+	flex-direction: column;
+	width:75%;
+}
+
+.title_right {
+	display: flex;
+	border-bottom: #009688 solid;
+	margin-left: 2.5em;
+	font-size: xx-large;
+	color: #757575;
+}
+
+.date {
+	margin-left: 2em;
+}
+
+.icone {
+	margin-right: 2em; 
+}
+
+.logo {
+	margin-right: 2em;
+	color: #009688;
+}
+
+/* ----------------- Formation -------------------- */
+
+.block_formation {
+	display: flex;
+	width: 100%;
+	text-align: justify;
+	margin-top: 2em;
+}
+
+.formation_gauche {
+	display: flex;
+	width: 30%;
+	margin-left: 4.5em;
+	margin-right: 2em;
+	color: #009688;
+}
+
+.formation_droit {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+}
+
+/* ---------------- Expérience ------------------ */
+
+.block_experience {
+	display: flex;
+	width: 100%;
+	text-align: justify;
+	margin-top: 2em;
+}
+
+.experience_gauche {
+	display: flex;
+	width: 30%;
+	margin-left: 4.5em;
+	margin-right: 2em;
+	color: #009688;
+}
+
+.experience_droite {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+}
+
+/* ---------------- Recommandation -------------- */
+
+#block_recommandation {
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	margin-bottom: 2em;
+}
+
+.recommandation_gauche {
+	display: flex;
+	width: 50%;
+	margin-left: 4.5em;
+	margin-right: 2em;
+}
+
+.recommandation_droite {
+	display: flex;
+	width: 50%;
+}
+
+/* ------------------------------ Responsive --------------------------- */
+
+@media screen and (max-width : 1325px) {
+
+	.maincontent {
+		width:  auto; 
+		flex-direction: column;	
+		margin-right: 0;
+		font-size: 16px;
+		padding-top:20px ;
+	}
+
+	.photo_sylvie {
+		width: 100%;
+		font-size: 20px;
+	}
+
+	img {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	#top {
+		flex-direction: column;
+	}
+
+	.titre {
+		width: 100%;
+    	text-align: center;
+	}
+
+	#bloc_droite {
+		width: 100%;
+		order: 3;
+		margin-right: 1em;
+	}
+
+	#bloc_gauche {
+		order: 4;
+		width: 100%;
+	}
+
+	address {
+		text-align: center;
+	}
+
+	.title_right {
+		margin: 0;
+	}
+
+	.experience_droite {
+		margin-right: 2em;
+	}
+
+	.experience_gauche {
+		margin-left: 9px;
+	}
+
+	.formation_droit {
+		margin-right: 2em;
+	}
+
+	.formation_gauche {
+		margin-left: 9px;
+	}
+
+	.title_left {
+		margin-top: 0em;
+		margin-bottom: 0em;
+	}
+
+	address {
+		margin-bottom: 2em;
+		margin-top: 2em;
+	}
+
+	.logo {
+		margin-left: 15px;
+	}
+
+	.date {
+		margin-left: 1em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	.experience_gauche {
+		margin-left: 1em;
+	}	
+
+	.formation_gauche {
+		margin-left: 1em;
+	}
+
+	.recommandation_gauche {
+		margin-left: 1em;
+		margin-top: 1em;
+	}
+
+	.recommandation_droite {
+		margin-left: 1em;
+		margin-top: 1em;
+	}
+
+	h1, h2 {
+		margin-left: 0px;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+
+	.titre {
+		font-size: 50%;
+	}
+
+	.title_right {
+		font-size: 120%;
+		padding-top: 20px;
+	}
+
+	#bloc_gauche {
+		width: 100%;
+	}
+
+	#block_recommandation {
+		width:100%;
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+
+	.recommandation_gauche,.recommandation_droite {
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+
+	#block_recommandation p {
+		padding-left: 25px;
+	}
+
+	h4, h5 {
+		margin-bottom: 5px;
+		text-align: start;
+	}
+
+	.title_left{
+		font-size: 130%;
+	}
+
+	h2{
+		font-size: 2.5em;
+	}
+}
