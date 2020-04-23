@@ -1,7 +1,7 @@
 body {
 	font-family: "Sriracha", cursive; 
 	background-color: white;
-	color: #BDBDBD;
+	color:  #757575;
 	text-align: justify;
 	min-height: 100%;
 	width: 100%;
@@ -95,7 +95,7 @@ img {
 
 h5 {
 	margin-top: 0;
-	color: #757575;
+	color: #BDBDBD;
 }
 
 h4 {
