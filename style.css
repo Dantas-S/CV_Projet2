@@ -1,12 +1,11 @@
 body {
 	font-family: "Sriracha", cursive; 
 	background-color: white;
-	color:  #757575;
-	text-align: justify;
+	color: black;
+	text-align: start;
 	min-height: 100%;
 	width: 100%;
 	margin: auto;
-	font-size: 18px;
 	display: block;
 }
 
@@ -21,7 +20,7 @@ a {
 }
 
 a:visited {
-	color:  #757575;
+	color: #757575;
 }
 
 /* ------------------------  Haut de page ------------------- */
@@ -75,7 +74,7 @@ img {
 .photo_sylvie {
 	display: flex;
 	width: 25%;
-	background-color: #BDBDBD;
+	background-color: black;
 	justify-content: center;
 }
 
@@ -95,7 +94,7 @@ img {
 
 h5 {
 	margin-top: 0;
-	color: #BDBDBD;
+	color: black;
 }
 
 h4 {
@@ -109,7 +108,7 @@ h4 {
 	display: flex;
 	flex-direction: column;	
 	width:25%;
-	background-color: #BDBDBD;
+	background-color: black ;
 	color: white;
 }
 
@@ -140,7 +139,7 @@ p{
 
 #icones { 
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	padding-left: 2em;
@@ -171,7 +170,7 @@ p{
 	border-bottom: #009688 solid;
 	margin-left: 2.5em;
 	font-size: xx-large;
-	color: #757575;
+	color: black;
 }
 
 .date {
@@ -192,7 +191,6 @@ p{
 .block_formation {
 	display: flex;
 	width: 100%;
-	text-align: justify;
 	margin-top: 2em;
 }
 
@@ -215,7 +213,6 @@ p{
 .block_experience {
 	display: flex;
 	width: 100%;
-	text-align: justify;
 	margin-top: 2em;
 }
 
@@ -262,7 +259,6 @@ p{
 		width:  auto; 
 		flex-direction: column;	
 		margin-right: 0;
-		font-size: 16px;
 		padding-top:20px ;
 	}
 
@@ -302,6 +298,7 @@ p{
 
 	.title_right {
 		margin: 0;
+		margin-bottom: 16px;
 	}
 
 	.experience_droite {
@@ -397,8 +394,7 @@ p{
 	}
 
 	h4, h5 {
-		margin-bottom: 5px;
-		text-align: start;
+		margin-bottom: 10px;
 	}
 
 	.title_left{
