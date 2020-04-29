@@ -1,0 +1,80 @@
+@media print {
+
+	html {
+		font-size : 10px;
+	}
+
+    h1 {
+    	margin: 0;
+    }
+
+    .photo_sylvie {
+    	display: none;
+    }
+
+    .titre {
+    	text-align: center;
+    	width : 100%;
+    	font-size: 7px;
+    }
+
+    .maincontent {
+    	flex-direction: column;
+        margin: 0;
+    }
+
+    #bloc_gauche {
+    	width: 100%;
+    	order : 2;
+    }
+
+    #bloc_droite {
+        width: 100%;
+    }
+
+    .formation_droit {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .formation_gauche {
+    	text-align: center;
+    	justify-content: center;
+    }
+   
+   .title_right {
+        font-size: 14px;
+   }
+
+    .experience_droite {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .experience_gauche {
+    	text-align: center;
+        justify-content: center;
+    }
+
+    #block_recommandation {
+        text-align:center;
+    }
+
+    .recommandation_gauche {
+    	justify-content:center;
+    }
+
+    .recommandation_droite {
+    	justify-content:center;
+    }
+
+    .title_left {
+    	font-size: 14px;
+    }
+
+    #bloc_gauche {
+    	background-color: transparent;
+    	color: black;
+    	text-align: center;
+    }
+}
