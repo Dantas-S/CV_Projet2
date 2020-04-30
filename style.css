@@ -25,11 +25,6 @@ a:visited {
 
 /* ------------------------  Haut de page ------------------- */
 
-#top {
-	display: flex;
-	width: 100%;
-}
-
 .titre {
 	display: flex;
 	flex-direction: column;
@@ -73,7 +68,7 @@ img {
 
 .photo_sylvie {
 	display: flex;
-	width: 25%;
+	width: 100%;
 	background-color: black;
 	justify-content: center;
 }
@@ -259,11 +254,9 @@ p{
 		width:  auto; 
 		flex-direction: column;	
 		margin-right: 0;
-		padding-top:20px ;
 	}
 
 	.photo_sylvie {
-		width: 100%;
 		font-size: 20px;
 	}
 
@@ -272,24 +265,20 @@ p{
 		margin-bottom: 1em;
 	}
 
-	#top {
-		flex-direction: column;
-	}
-
 	.titre {
 		width: 100%;
-    	text-align: center;
+		text-align: center;
 	}
 
 	#bloc_droite {
 		width: 100%;
-		order: 3;
 		margin-right: 1em;
+		order: 2;
 	}
 
 	#bloc_gauche {
-		order: 4;
 		width: 100%;
+		order: 1;
 	}
 
 	address {
@@ -387,9 +376,11 @@ p{
 		width: 100%;
 		padding: 15px 0;
 		margin: 0;
+		text-align: center;
 	}
 
 	#block_recommandation p {
+		width: 100%;
 		padding-left: 25px;
 	}
 
